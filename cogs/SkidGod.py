@@ -3,7 +3,7 @@ from discord.ext import commands
 import openai
 
 def generate_text(prompt):
-  openai.api_key = "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"
+  openai.api_key = "your api here"
   completions = openai.Completion.create(
     engine="text-davinci-002",
     prompt=prompt,
