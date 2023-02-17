@@ -3,7 +3,7 @@ import asyncio
 from discord.ext import commands
 
 
-token="MTA3NDg3OTgwOTU4ODU2Mzk4MQ.GkRYJx.vBK1KeMbV-V7iSopiO--JEgcds5hw-igPm-F24"
+token="MTA3NDg3OTgwOTU4ODU2Mzk4MQ.GFieRn.AxTBwJtTpzJxkwZWmj0LUGrYDevnCe4r40Aw-c"
 OWNER_IDS= [217354675454738433,246469891761111051,1049313229127557180]
 
 bot = commands.AutoShardedBot(command_prefix="s!",intents=discord.Intents.all(),owner_ids=OWNER_IDS,allowed_mentions=discord.AllowedMentions(everyone=False, replied_user=False,roles=False),case_insensitive=True,strip_after_prefix=True,replied_user=False,shard_count=1, sync_commands_debug= True, sync_commands=True)

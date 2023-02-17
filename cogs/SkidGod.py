@@ -27,7 +27,7 @@ class skid(commands.Cog):
       await ctx.reply(fof, ephemeral=True, mention_author=True) 
     @commands.command()
     async def help(self, ctx):
-      Skid =f"***Must give a star:*** "
+      Skid =f"***Must give a star:*** https://github.com/SkidGod4444/ChatGpt-Ai-bot"
       await ctx.send(Skid)
     @commands.command()
     async def help(self, ctx):
