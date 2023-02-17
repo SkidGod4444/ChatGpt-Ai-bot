@@ -3,7 +3,7 @@ from discord.ext import commands
 import openai
 
 def generate_text(prompt):
-  openai.api_key = "your api here"
+  openai.api_key = "put your api here"
   completions = openai.Completion.create(
     engine="text-davinci-002",
     prompt=prompt,
@@ -26,7 +26,7 @@ class skid(commands.Cog):
       fof =f"**__OpenAi's response:__**\n\n```{lund}```"
       await ctx.reply(fof, ephemeral=True, mention_author=True) 
     @commands.command()
-    async def help(self, ctx):
+    async def src(self, ctx):
       Skid =f"***Must give a star:*** https://github.com/SkidGod4444/ChatGpt-Ai-bot"
       await ctx.send(Skid)
     @commands.command()
